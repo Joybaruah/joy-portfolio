@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function () {
+export default function HeaderImage() {
   return (
     <motion.img
       src="/images/header.jpg"
