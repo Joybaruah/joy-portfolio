@@ -24,7 +24,7 @@ export default function Header() {
         className="text-4xl sm:text-5xl text-text font-bold"
         style={fontDMSans.style}
       >
-        Hi I'm a
+        Hi I&apos;m a
       </h1>
       <h1
         className="text-4xl sm:text-5xl text-text font-bold"
