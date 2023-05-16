@@ -6,7 +6,7 @@ import { fontDMSans, fontDMSerifDisplay } from "@/utils/fonts";
 export default function Home() {
   return (
     <main>
-      <section className="flex flex-col-reverse sm:flex-row sm:mt-2 justify-around items-center p-7 h-[80vh] mb-[20%] sm:justify-between">
+      <section className="flex flex-col sm:flex-row sm:mt-2 justify-between items-center p-7 h-[80vh] mb-[20%]">
       <Header />
       <HeaderImage/>
       </section>

@@ -6,13 +6,13 @@ export default function HeaderImage() {
     <div className="relative">
       <img
         src="/images/header.jpg"
-        className="w-80 sm:w-80 absolute z-30 shadow-lg"
+        className="w-72 sm:w-80 absolute z-30 shadow-lg"
         alt="image"
       />
       <div className="border-2 border-text translate-x-4 translate-y-4">
         <img
           src="/images/header.jpg"
-          className="w-80 sm:w-80 opacity-0"
+          className="w-72 sm:w-80 opacity-0"
           alt="image"
         />
       </div>
