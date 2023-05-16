@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="p-4 sm:p-5 flex justify-between items-center">
         <div className="flex align-bottom items-end gap-10">
           <h1
-            className="text-text text-3xl cursor-pointer"
+            className="text-text text-4xl cursor-pointer"
             style={fontDMSerifDisplay.style}
           >
             Joy Baruah
