@@ -67,7 +67,7 @@ export default function Navbar() {
       </div>
 
       <motion.div
-        className={`flex-col p-5 h-[100vh] bg-[#f2f2f2]/80 w-full absolute z-50 drop-shadow-sm ${
+        className={`flex-col p-5 h-[100vh] bg-background/80 w-full absolute z-50 drop-shadow-sm ${
           active ? "flex" : "hidden"
         }`}
         animate={active ? "open" : "closed"}

@@ -12,7 +12,7 @@ export default function Home() {
       </section>
 
       {/* <section className="p-7">
-        <h2 className="text-3xl font-semibold my-2" style={fontDMSerifDisplay.style}>Experience</h2>
+        <h2 className="text-3xl font-semibold my-2 text-text" style={fontDMSerifDisplay.style}>Experience</h2>
         <ExpCard />
       </section> */}
     </main>
