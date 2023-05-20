@@ -20,7 +20,7 @@ export default function ExpCard({ exp }) {
           <div className="flex flex-wrap gap-2 mt-8">
             {exp.skills.map((s) => {
               return (
-                <div className="bg-primary/20 w-fit px-4 py-1 rounded-full shadow-sm">
+                <div className="bg-primary/20 w-fit px-4 py-1 rounded-full shadow-sm" key={exp.id}>
                   <h4 className="text-primary text-sm" style={fontDMSans.style}>
                     {s}
                   </h4>
