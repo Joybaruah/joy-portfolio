@@ -9,7 +9,7 @@ import { useState } from "react";
 import { GrInstagram, GrLinkedin, GrGithub } from "react-icons/gr";
 import { TbMenu } from "react-icons/tb";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
@@ -17,7 +17,7 @@ export default function Navbar() {
   const variants = {
     open: { opacity: 1, x: 0 },
     closed: { opacity: 0, x: "-50%" },
-  }
+  };
 
   return (
     <header>
@@ -35,7 +35,7 @@ export default function Navbar() {
           >
             <li>
               <div>
-                <a className="hover:text-primary transition-colors duration-200">
+                <a href="/works" className="hover:text-primary transition-colors duration-200">
                   Works
                 </a>
               </div>
@@ -44,18 +44,28 @@ export default function Navbar() {
         </div>
 
         <div className="md:flex gap-4 hidden">
-          <GrInstagram
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
-          <GrLinkedin
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
-          <GrGithub
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
+          <a target="_blank" href="https://www.instagram.com/_joybaruah/">
+            <GrInstagram
+              size={23}
+              href="https://www.instagram.com/_joybaruah/"
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/joy-baruah-940032212"
+          >
+            <GrLinkedin
+              size={23}
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
+          <a target="_blank" href="https://github.com/Joybaruah">
+            <GrGithub
+              size={23}
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
         </div>
 
         <div
@@ -71,28 +81,37 @@ export default function Navbar() {
           active ? "flex" : "hidden"
         }`}
         animate={active ? "open" : "closed"}
-      variants={variants}
+        variants={variants}
       >
         <ul style={fontDMSans.style} className="text-text cursor-pointer">
           <li>
             <div>
-              <a className="text-xl">Works</a>
+              <a className="text-xl" href="/works">Works</a>
             </div>
           </li>
         </ul>
         <div className="flex gap-4 mt-[20%]">
-          <GrInstagram
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
-          <GrLinkedin
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
-          <GrGithub
-            size={23}
-            className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-          />
+          <a target="_blank" href="https://www.instagram.com/_joybaruah/">
+            <GrInstagram
+              size={23}
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/joy-baruah-940032212"
+          >
+            <GrLinkedin
+              size={23}
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
+          <a target="_blank" href="https://github.com/Joybaruah">
+            <GrGithub
+              size={23}
+              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
+            />
+          </a>
         </div>
       </motion.div>
     </header>
