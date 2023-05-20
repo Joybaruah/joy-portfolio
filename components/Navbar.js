@@ -23,12 +23,13 @@ export default function Navbar() {
     <header>
       <div className="p-4 sm:p-5 flex justify-between items-center">
         <div className="flex align-bottom items-end gap-10">
-          <h1
+          <a
+            href="/"
             className="text-text text-4xl cursor-pointer"
             style={fontDMSerifDisplay.style}
           >
             Joy Baruah
-          </h1>
+          </a>
           <ul
             style={fontDMSans.style}
             className="text-text cursor-pointer hidden md:block"

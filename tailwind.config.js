@@ -21,6 +21,7 @@ module.exports = {
         'text': '#ffffff',
         'background': '#111111',
         'primary': '#ff602c',
+        'dull': "#FFA559",
         'secondary': '#000000',
         'accent': '#ffffff',
       }

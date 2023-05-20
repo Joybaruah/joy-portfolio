@@ -1,8 +1,8 @@
 import Header from "@/components/home/Header";
 import HeaderImage from "@/components/home/HeaderImage";
-import ExpCard from "@/components/home/experience/ExpCard";
+import ExpCard from "@/components/home/experience/ExpCard.jsx";
 import { fontDMSans, fontDMSerifDisplay } from "@/utils/fonts";
-import { exp } from "../exp.js";
+import { exp } from "../data/exp.js";
 import { BsArrowRight } from "react-icons/bs"
 
 export default function Home() {
@@ -25,12 +25,12 @@ export default function Home() {
         })}
       </section>
 
-      <div>
+      <a href="/works">
         <button className="bg-primary px-6 py-2 flex items-center gap-3 m-6 rounded-lg hover:drop-shadow-lg hover:shadow-primary" style={fontDMSans.style}>
           Check my Works
             <BsArrowRight size={22} />
         </button>
-      </div>
+      </a>
     </main>
   );
 }
