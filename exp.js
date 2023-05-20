@@ -1,5 +1,6 @@
 export const exp = [
     {
+        "id": 1,
         "title": "Frontend Developer Intern",
         "company": "Wireone Labs",
         "timeline": "Aug - Sep 2022",
@@ -7,6 +8,7 @@ export const exp = [
         "skills": ["ReactJs", "React Native", "Tailwind CSS", "JavaScript"]
     },
     {
+        "id": 2,
         "title": "Full Stack Developer",
         "company": "Wireone Labs",
         "timeline": "Sep 2022 - Present",

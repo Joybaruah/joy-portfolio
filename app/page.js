@@ -21,7 +21,7 @@ export default function Home() {
           Experience
         </h2>
         {exp.map((item) => {
-          return <ExpCard exp={item} key={item.timeline} />;
+          return <ExpCard exp={item} key={item.id} />;
         })}
       </section>
 
