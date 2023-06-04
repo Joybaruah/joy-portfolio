@@ -14,13 +14,10 @@ export default function ExpCard({ exp }) {
           <h3 style={fontDMSans.style} className="text-text text-lg">
             {exp.title} • {exp.company}
           </h3>
-          <p className="text-text text-sm pt-2" style={fontDMSans.style}>
-            {exp.description}
-          </p>
-          <div className="flex flex-wrap gap-2 mt-8">
+          <div className="flex flex-wrap gap-2">
             {exp.skills.map((s) => {
               return (
-                <div className="bg-primary/20 w-fit px-4 py-1 rounded-full shadow-sm" key={exp.id}>
+                <div className="w-fit py-1 rounded-full shadow-sm" key={exp.id}>
                   <h4 className="text-primary text-sm" style={fontDMSans.style}>
                     {s}
                   </h4>
@@ -28,6 +25,9 @@ export default function ExpCard({ exp }) {
               );
             })}
           </div>
+          <p className="text-text text-sm pt-4" style={fontDMSans.style}>
+            {exp.description}
+          </p>
         </div>
       </div>
     </div>
