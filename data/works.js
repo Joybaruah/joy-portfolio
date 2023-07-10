@@ -12,5 +12,12 @@ export const works = [
         "link": "https://algorizon.netlify.app/",
         "description": "A Website for Software company.",
         "tech": ["ReactJs", "React Router", "Tailwind CSS", "Framer Motion"]
+    },
+    {
+        "id": 2,
+        "title": "Pokedex CLI",
+        "link": "https://github.com/Joybaruah/poke-cli",
+        "description": "A Command Line PokeDex Game.",
+        "tech": ["Golang", "Poke API"]
     }
 ]
