@@ -28,4 +28,11 @@ export const works = [
     description: "Blog site with tech related Articles.",
     tech: ["NextJs", "Tailwind CSS", "MDX"],
   },
+  {
+    id: 5,
+    title: "Paginator-v1",
+    link: "https://www.npmjs.com/package/paginator-v1",
+    description: "Paginator Npm Package for paginating mongoose Models.",
+    tech: ["Typescript"],
+  },
 ];
