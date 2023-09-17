@@ -16,20 +16,13 @@ export const works = [
   },
   {
     id: 3,
-    title: "Pokedex CLI",
-    link: "https://github.com/Joybaruah/poke-cli",
-    description: "A Command Line PokeDex Game.",
-    tech: ["Golang", "Poke API"],
-  },
-  {
-    id: 4,
     title: "read-tech",
     link: "https://read-tech.vercel.app/",
     description: "Blog site with tech related Articles.",
     tech: ["NextJs", "Tailwind CSS", "MDX"],
   },
   {
-    id: 5,
+    id: 4,
     title: "Paginator-v1",
     link: "https://www.npmjs.com/package/paginator-v1",
     description: "Paginator Npm Package for paginating mongoose Models.",

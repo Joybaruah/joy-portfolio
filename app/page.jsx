@@ -13,16 +13,6 @@ export default async function Home() {
         <HeaderImage />
       </section>
 
-      <section className="p-7">
-        <h2
-          className="text-3xl font-semibold my-2 text-text"
-          style={fontDMSerifDisplay.style}
-        >
-          Recently Published
-        </h2>
-        
-      </section>
-
       <section className="p-7 mt-10">
         <h2
           className="text-3xl font-semibold my-2 text-text"
