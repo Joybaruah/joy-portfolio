@@ -8,7 +8,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default async function Home() {
   return (
     <main>
-      <section className="flex flex-col-reverse sm:flex-row sm:mt-2 justify-around sm:justify-between items-center p-7 h-[90vh] sm:h-[80vh] mb-[20%]">
+      <section className="flex flex-col-reverse sm:flex-row sm:mt-2 justify-around sm:justify-between items-center p-7 h-[90vh] sm:h-[80vh] mb-[0%]">
         <Header />
         <HeaderImage />
       </section>

@@ -45,13 +45,6 @@ export default function Navbar() {
         </div>
 
         <div className="md:flex gap-4 hidden">
-          <a target="_blank" href="https://www.instagram.com/_joybaruah/">
-            <GrInstagram
-              size={23}
-              href="https://www.instagram.com/_joybaruah/"
-              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-            />
-          </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/joy-baruah-940032212"
@@ -92,12 +85,6 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="flex gap-4 mt-[20%]">
-          <a target="_blank" href="https://www.instagram.com/_joybaruah/">
-            <GrInstagram
-              size={23}
-              className="cursor-pointer text-primary hover:scale-110 transform transition duration-200"
-            />
-          </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/joy-baruah-940032212"
